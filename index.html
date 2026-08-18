@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Kaypan Geosystems | Portfolio & Services</title>
+		<link rel="stylesheet" href="css/tailwindcss.css">
+	</head>
+	<body class="bg-slate-50 text-slate-800 font-sans scroll-smooth">
+
+		<!-- Navigation Bar -->
+		<nav class="bg-slate-900 text-white sticky top-0 z-50 shadow-md">
+			<div class="max-w-6xl mx-auto px-4 py-3 flex justify-between items-center relative">
+				<div class="text-base font-bold tracking-wider text-emerald-400">
+					KAYPAN GEOSYSTEMS
+				</div>
+				
+				<!-- Mobile Hamburger Button -->
+				<button id="menu-btn" class="sm:hidden text-slate-300 hover:text-white focus:outline-none" aria-label="Toggle Menu">
+					<svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+						<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+					</svg>
+				</button>
+
+				<!-- Navigation Links (Responsive Mobile Drawer Layout) -->
+				<div id="menu-drawer" class="hidden absolute top-full left-0 w-full bg-slate-900 border-t border-slate-800 p-4 flex flex-col gap-3 shadow-xl sm:static sm:border-0 sm:p-0 sm:flex sm:flex-row sm:w-auto sm:gap-x-6 text-xs font-medium">
+					<a href="#home" class="hover:text-emerald-400 transition py-1">Home</a>
+					<a href="#services" class="hover:text-emerald-400 transition py-1">Services</a>
+					<a href="#software" class="hover:text-emerald-400 transition py-1">Software</a>
+					<a href="#contact" class="hover:text-emerald-400 transition py-1">Contact</a>
+				</div>
+			</div>
+		</nav>
+
+		<!-- Hero Section -->
+		<header id="home" class="bg-gradient-to-r from-slate-900 to-slate-800 text-white py-24 px-6">
+			<div class="max-w-4xl mx-auto text-center">
+				<h1 class="text-4xl md:text-5xl font-extrabold tracking-tight mb-6">
+					Advanced Geospatial Solutions & Systems
+				</h1>
+				<p class="text-lg md:text-xl text-slate-300 max-w-2xl mx-auto mb-8">
+					We map, model, and deploy custom spatial technologies to solve complex geographic challenges. Explore our core expertise.
+				</p>
+				<a href="#services" class="bg-emerald-500 hover:bg-emerald-600 text-slate-950 font-bold px-8 py-3 rounded-md transition shadow-lg">
+					View Our Portfolio
+				</a>
+			</div>
+		</header>
+		
+		<!-- Trusted Partners / Organizations Section -->
+		<section class="bg-white border-b border-slate-200 py-10 px-4">
+			<div class="max-w-6xl mx-auto">
+				<p class="text-center text-[10px] font-semibold uppercase tracking-widest text-slate-400 mb-6">
+					Trusted by leading regional organizations & enterprise operators
+				</p>
+				
+				<!-- Logo Flex Layout: Evenly spaced grid breaking into a single responsive column row -->
+				<div class="flex flex-wrap items-center justify-center gap-x-12 gap-y-6 opacity-60">
+					
+					<!-- Partner 1 -->
+					<div class="flex items-center gap-2 group transition duration-300">
+						<svg class="w-5 h-5 text-slate-500 group-hover:text-emerald-500 transition" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+							<path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+						</svg>
+						<span class="text-xs font-bold uppercase tracking-wider text-slate-600 group-hover:text-slate-900 transition">Zambia Forestry Authority</span>
+					</div>
+
+					<!-- Partner 2 -->
+					<div class="flex items-center gap-2 group transition duration-300">
+						<svg class="w-5 h-5 text-slate-500 group-hover:text-emerald-500 transition" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+							<path d="M16.88 3.549L16.12 3H3v18h18V7.521l-4.12-3.972zM12 17a3 3 0 110-6 3 3 0 010 6zm3-9H6V6h9v2z"/>
+						</svg>
+						<span class="text-xs font-bold uppercase tracking-wider text-slate-600 group-hover:text-slate-900 transition">Kafue Hydro Systems</span>
+					</div>
+
+					<!-- Partner 3 -->
+					<div class="flex items-center gap-2 group transition duration-300">
+						<svg class="w-5 h-5 text-slate-500 group-hover:text-emerald-500 transition" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+							<path d="M9 20l-5.447-2.724A1 1 0 013 16.382V5.618a1 1 0 011.447-.894L9 7m0 13l6-3m-6 3V7m6 10l4.553 2.276A1 1 0 0021 18.382V7.618a1 1 0 00-.553-.894L15 4m0 13V4m0 4L9 7"/>
+						</svg>
+						<span class="text-xs font-bold uppercase tracking-wider text-slate-600 group-hover:text-slate-900 transition">Apex Mining Ltd</span>
+					</div>
+
+					<!-- Partner 4 -->
+					<div class="flex items-center gap-2 group transition duration-300">
+						<svg class="w-5 h-5 text-slate-500 group-hover:text-emerald-500 transition" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+							<path d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"/>
+						</svg>
+						<span class="text-xs font-bold uppercase tracking-wider text-slate-600 group-hover:text-slate-900 transition">Lusaka Municipal Planning</span>
+					</div>
+
+				</div>
+			</div>
+		</section>
+
+
+		<!-- Services Portfolio Section -->
+		<main id="services" class="max-w-6xl mx-auto px-6 py-20">
+			<div class="text-center mb-16">
+				<h2 class="text-3xl font-bold text-slate-900 tracking-tight">Our Core Services</h2>
+				<p class="text-slate-600 mt-2">Professional engineering and consulting for spatial data infrastructure.</p>
+			</div>
+
+			<!-- Core Services Grid -->
+			<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+				
+				<!-- Service 1 -->
+				<div class="bg-white p-6 rounded-xl shadow-sm border border-slate-200 hover:border-emerald-500 hover:shadow-md transition-all duration-300 flex flex-col justify-between group">
+					<div>
+						<!-- Map Visual Placeholder -->
+						<div class="w-full h-40 bg-slate-100 rounded-lg mb-6 overflow-hidden relative flex items-center justify-center border border-slate-200">
+							<svg class="absolute inset-0 w-full h-full text-slate-300 opacity-40 group-hover:scale-105 transition-transform duration-500" fill="none" stroke="currentColor" viewBox="0 0 100 100" preserveAspectRatio="none">
+								<path stroke-width="0.5" d="M0,20 Q30,40 50,10 T80,70 100,50 M0,60 Q40,30 70,80 T100,20 M30,0 L30,100 M70,0 L70,100 M0,40 L100,40"/>
+								<circle cx="50" cy="10" r="2" fill="currentColor"/>
+								<circle cx="70" cy="80" r="2" fill="currentColor"/>
+							</svg>
+							<div class="relative bg-white px-3 py-1 rounded-full text-xs font-semibold text-slate-600 shadow-sm border border-slate-100 flex items-center gap-1">
+								<span class="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span> App Architecture
+							</div>
+						</div>
+						<div class="text-emerald-600 font-bold text-xs tracking-widest uppercase mb-2">01 / Engineering</div>
+						<h3 class="text-xl font-bold text-slate-900 mb-3">GIS Systems Design & Build</h3>
+						<p class="text-slate-600 text-sm leading-relaxed">
+							Create robust, production-grade custom GIS applications configured by our expert systems architecture team.
+						</p>
+					</div>
+				</div>
+
+				<!-- Service 2 -->
+				<div class="bg-white p-6 rounded-xl shadow-sm border border-slate-200 hover:border-emerald-500 hover:shadow-md transition-all duration-300 flex flex-col justify-between group">
+					<div>
+						<!-- Map Visual Placeholder -->
+						<div class="w-full h-40 bg-slate-100 rounded-lg mb-6 overflow-hidden relative flex items-center justify-center border border-slate-200">
+							<svg class="absolute inset-0 w-full h-full text-slate-300 opacity-40 group-hover:scale-105 transition-transform duration-500" fill="none" stroke="currentColor" viewBox="0 0 100 100" preserveAspectRatio="none">
+								<path stroke-width="0.5" d="M10,10 L30,40 L70,30 L90,80 M20,80 L50,60 L80,90"/>
+								<circle cx="30" cy="40" r="3" fill="none" stroke="currentColor" stroke-width="1"/>
+								<circle cx="70" cy="30" r="4" fill="none" stroke="currentColor" stroke-width="1"/>
+							</svg>
+							<div class="relative bg-white px-3 py-1 rounded-full text-xs font-semibold text-slate-600 shadow-sm border border-slate-100 flex items-center gap-1">
+								<span class="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span> Spatial Matrix
+							</div>
+						</div>
+						<div class="text-emerald-600 font-bold text-xs tracking-widest uppercase mb-2">02 / Development</div>
+						<h3 class="text-xl font-bold text-slate-900 mb-3">Custom Spatial Modeling Scripts</h3>
+						<p class="text-slate-600 text-sm leading-relaxed">
+							Automate heavy workflows and extract insights with custom Python and R scripts tailored for geoprocessing and spatial telemetry.
+						</p>
+					</div>
+				</div>
+
+				<!-- Service 3 -->
+				<div class="bg-white p-6 rounded-xl shadow-sm border border-slate-200 hover:border-emerald-500 hover:shadow-md transition-all duration-300 flex flex-col justify-between group">
+					<div>
+						<!-- Map Visual Placeholder -->
+						<div class="w-full h-40 bg-slate-100 rounded-lg mb-6 overflow-hidden relative flex items-center justify-center border border-slate-200">
+							<div class="absolute inset-0 opacity-20 group-hover:scale-105 transition-transform duration-500 bg-[radial-gradient(#334155_1px,transparent_1px)] [background-size:16px_16px]"></div>
+							<svg class="absolute w-24 h-24 text-slate-300 opacity-50" fill="none" stroke="currentColor" stroke-width="1" viewBox="0 0 24 24">
+								<path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+							</svg>
+							<div class="relative bg-white px-3 py-1 rounded-full text-xs font-semibold text-slate-600 shadow-sm border border-slate-100 flex items-center gap-1">
+								<span class="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span> Vector Layers
+							</div>
+						</div>
+						<div class="text-emerald-600 font-bold text-xs tracking-widest uppercase mb-2">03 / Education</div>
+						<h3 class="text-xl font-bold text-slate-900 mb-3">Geospatial Training</h3>
+						<p class="text-slate-600 text-sm leading-relaxed">
+							Empower your technical workforce with hands-on, domain-specific training led directly by senior industry professionals.
+						</p>
+					</div>
+				</div>
+
+			</div>
+
+			<!-- Software Assets Section -->
+			<!--div id="software" class="mt-16 bg-white p-8 md:p-12 rounded-2xl shadow-sm border border-slate-200 flex flex-col md:flex-row items-center justify-between gap-8">
+				<div class="max-w-2xl">
+					<div class="text-emerald-600 font-bold text-sm tracking-widest uppercase mb-2">04 / Product Ecosystem</div>
+					<h3 class="text-2xl font-bold text-slate-900 mb-3">Downloadable or Demo Software</h3>
+					<p class="text-slate-600 leading-relaxed">
+						Access and test our native builds, spatial extensions, and interactive desktop demos engineered for immediate validation within your local projects.
+					</p>
+				</div>
+				<div class="w-full md:w-auto shrink-0">
+					<a id="software-hub-btn" href="#" class="block text-center bg-slate-900 hover:bg-slate-800 text-white font-semibold px-6 py-3 rounded-md transition">
+						Access Software Hub &rarr;
+					</a>
+				</div>
+			</div-->
+			<!-- Software Assets & Live Interactive App Demo Section -->
+			<div id="software" class="mt-12 space-y-6">
+				
+				<!-- Main Product Block Card -->
+				<div class="bg-white p-6 md:p-10 rounded-xl shadow-sm border border-slate-200 flex flex-col md:flex-row items-center justify-between gap-6">
+					<div class="max-w-2xl">
+						<div class="text-emerald-600 font-bold text-[10px] tracking-widest uppercase mb-1">04 / Product Ecosystem</div>
+						<h3 class="text-xl font-bold text-slate-900 mb-2">Zambian Surveyors Calculator (zamcalc)</h3>
+						<p class="text-slate-600 text-xs leading-relaxed">
+							Access our specialized mathematical coordinate translation engine built specifically for surveyors operating under local regional reference frameworks.
+						</p>
+					</div>
+					<div class="w-full md:w-auto shrink-0 flex gap-3">
+						<button id="toggle-sandbox-btn" class="w-full sm:w-auto text-center bg-slate-900 hover:bg-slate-800 text-white font-semibold text-xs px-5 py-2.5 rounded-md transition">
+							Interact with Demo &darr;
+						</button>
+						<a href="https://github.com/Kapsab/zamcalc" target="_blank" class="w-full sm:w-auto text-center bg-transparent text-slate-700 hover:text-slate-900 border border-slate-300 font-semibold text-xs px-5 py-2.5 rounded-md transition flex items-center justify-center gap-1.5">
+							Source Code
+						</a>
+					</div>
+				</div>
+
+				<!-- Collapsible Browser Sandbox Simulation Frame -->
+				<div id="demo-sandbox" class="hidden w-full bg-slate-900 rounded-xl shadow-2xl border border-slate-700/50 overflow-hidden animate-in fade-in slide-in-from-top-4 duration-300">
+					
+					<!-- Top Window Header Simulation Row -->
+					<div class="bg-slate-800/90 px-4 py-3 flex items-center justify-between border-b border-slate-700/60">
+						<!-- Custom Mock Dot Buttons -->
+						<div class="flex items-center gap-2">
+							<span class="w-2.5 h-2.5 rounded-full bg-rose-500 block"></span>
+							<span class="w-2.5 h-2.5 rounded-full bg-amber-500 block"></span>
+							<span class="w-2.5 h-2.5 rounded-full bg-emerald-500 block"></span>
+						</div>
+						<!-- Centered Live Simulated Location Path -->
+						<div class="bg-slate-900 text-slate-400 text-[10px] font-mono px-4 py-1 rounded w-full max-w-sm text-center truncate mx-4 select-all">
+							kapsab.github.io/zamcalc/
+						</div>
+						<!-- Secondary Launch Native Tab Hook Link -->
+						<a href="https://github.io" target="_blank" class="text-slate-400 hover:text-emerald-400 text-[11px] font-medium flex items-center gap-1 transition shrink-0">
+							<span>Full Tab</span> &rarr;
+						</a>
+					</div>
+
+					<!-- Fluid App Content Delivery Sandbox Window -->
+					<div class="relative w-full min-h-[480px] md:min-h-[580px] bg-slate-950">
+						<iframe 
+							id="demo-iframe"
+							src="" 
+							title="zamcalc Platform Preview Playground"
+							class="absolute inset-0 w-full h-full border-0 bg-transparent"
+							loading="lazy">
+						</iframe>
+					</div>
+				</div>
+
+			</div>
+
+			
+			<!-- Interactive GitHub Portfolio Container -->
+			<div id="github-portfolio" class="hidden mt-12 border-t border-slate-200 pt-10 scroll-mt-20">
+				<div class="mb-6">
+					<div class="text-emerald-600 font-bold text-[10px] tracking-widest uppercase mb-1">Software Ecosystem</div>
+					<h3 class="text-xl font-bold text-slate-900 tracking-tight">Active Production Repositories</h3>
+					<p class="text-slate-600 text-xs mt-1">Natively pulled directly from our public GitHub engineering profiles.</p>
+				</div>
+				
+				<!-- Target Grid for dynamic repository injection -->
+				<div id="github-repo-grid" class="grid grid-cols-1 md:grid-cols-2 gap-4">
+					<!-- Dynamic cards load here -->
+				</div>
+			</div>
+		</main>
+
+		<!-- Project Inquiry & Corporate Details Block -->
+		<section id="contact" class="bg-slate-900 text-white py-12 px-4">
+			<div class="max-w-5xl mx-auto flex flex-col gap-10">
+				
+				<!-- Client Form Container (Now Comes First) -->
+				<div class="w-full">
+					<div class="text-center mb-12">
+						<h2 class="text-3xl font-bold tracking-tight text-white">Start Your Spatial Project</h2>
+						<p class="text-slate-400 mt-2">Submit your requirements to receive a technical scoping consultation framework.</p>
+					</div>
+					
+					<form class="space-y-4 bg-slate-800/40 p-5 rounded-xl border border-slate-700/50 backdrop-blur-sm shadow-xl" onsubmit="event.preventDefault();">
+						<div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+							<div>
+								<label class="block text-xs font-medium text-slate-300 mb-1">Full Name</label>
+								<input type="text" required placeholder="John Doe" class="w-full px-3 py-2 rounded bg-slate-900 border border-slate-700 text-white focus:outline-none focus:border-emerald-500 transition text-xs">
+							</div>
+							<div>
+								<label class="block text-xs font-medium text-slate-300 mb-1">Email Address</label>
+								<input type="email" required placeholder="john@company.com" class="w-full px-3 py-2 rounded bg-slate-900 border border-slate-700 text-white focus:outline-none focus:border-emerald-500 transition text-xs">
+							</div>
+						</div>
+						<div>
+							<label class="block text-xs font-medium text-slate-300 mb-1">Target Spatial Service Focus</label>
+							<select class="w-full px-3 py-2 rounded bg-slate-900 border border-slate-700 text-slate-300 focus:outline-none focus:border-emerald-500 transition text-xs">
+								<option>GIS Systems Design & Build</option>
+								<option>Custom Spatial Modeling Scripts</option>
+								<option>Geospatial Training Infrastructure</option>
+								<option>Software Ecosystem / License Demo</option>
+							</select>
+						</div>
+						<div>
+							<label class="block text-xs font-medium text-slate-300 mb-1">Project Scope Details</label>
+							<textarea rows="3" required placeholder="Describe configuration scales or technical metrics..." class="w-full px-3 py-2 rounded bg-slate-900 border border-slate-700 text-white focus:outline-none focus:border-emerald-500 transition text-xs resize-none"></textarea>
+						</div>
+						
+						<!-- Balanced Dual-Button Layout -->
+						<div class="flex flex-col sm:flex-row-reverse justify-between items-center gap-3 pt-2">
+							<button type="submit" class="w-full sm:w-auto bg-emerald-500 hover:bg-emerald-600 text-slate-950 font-bold px-8 py-2.5 rounded text-xs transition shadow-md">
+								Submit Scoping Form
+							</button>
+							<button type="reset" class="w-full sm:w-auto bg-transparent hover:bg-slate-700/60 text-slate-400 hover:text-white border border-slate-700 font-medium px-8 py-2.5 rounded text-xs transition">
+								Cancel Project
+							</button>
+						</div>
+					</form>
+				</div>
+
+				<!-- Company Details Block (Now Positioned Below Form) -->
+				<div class="w-full grid grid-cols-1 md:grid-cols-2 gap-6 border-t border-slate-800 pt-8">
+					<div>
+						<h2 class="text-xl font-bold tracking-tight text-white mb-1">Kaypan Geosystems</h2>
+						<p class="text-xs text-slate-400 leading-relaxed">
+							Headquartered spatial technology laboratories supporting dynamic infrastructure scaling.
+						</p>
+					</div>
+					<div class="grid grid-cols-1 sm:grid-cols-2 gap-4 text-xs text-slate-300">
+						<div>
+							<div class="font-semibold text-emerald-400 uppercase tracking-wider text-[9px] mb-0.5">Physical HQ Office</div>
+							<p>Suite 404, Meridian Geospatial Tower</p>
+							<p>128 Meridian Tech Boulevard, Kafue, Zambia</p>
+						</div>
+						<div>
+							<div class="font-semibold text-emerald-400 uppercase tracking-wider text-[9px] mb-0.5">Contact Gateway</div>
+							<p>Inquiries: contact@kaypangeo.com</p>
+							<p>Support desk: +260 211 555 019</p>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</section>
+
+		<!-- Footer Section -->
+		<footer class="bg-slate-950 text-slate-600 py-6 text-center text-[10px] border-t border-slate-900">
+			<p>&copy; 2026 Kaypan Geosystems. All rights reserved.</p>
+		</footer>
+		
+		<!-- Mobile Hamburger & GitHub Hub Sync Logic -->
+		<script>
+			// 1. Mobile Menu Drawer Engine
+			const menuBtn = document.getElementById('menu-btn');
+			const menuDrawer = document.getElementById('menu-drawer');
+
+			menuBtn.addEventListener('click', () => {
+				menuDrawer.classList.toggle('hidden');
+			});
+
+			menuDrawer.querySelectorAll('a').forEach(link => {
+				link.addEventListener('click', () => {
+					if (window.innerWidth < 640) {
+						menuDrawer.classList.add('hidden');
+					}
+				});
+			});
+
+			// 2. Dynamic Repo Ingestion Engine with Local Fail-Safe
+			const GITHUB_USERNAME = 'Kapsab'; 
+			const hubBtn = document.getElementById('software-hub-btn');
+			const portfolioContainer = document.getElementById('github-portfolio');
+			const repoGrid = document.getElementById('github-repo-grid');
+
+			// Fallback Data: Used instantly if an ad blocker kills the network request
+			const fallbackRepos = [
+				{
+					name: "spatial-analytics-engine",
+					html_url: `https://github.com{GITHUB_USERNAME}/spatial-analytics-engine`,
+					description: "Automated spatial workflows and routing systems utilizing arcpy and geopandas pipelines.",
+					language: "Python",
+					stargazers_count: 12
+				},
+				{
+					name: "qgis-layer-manager",
+					html_url: `https://github.com{GITHUB_USERNAME}/qgis-layer-manager`,
+					description: "An interactive desktop QGIS plugin engineered to dynamically structure matrix models.",
+					language: "JavaScript",
+					stargazers_count: 8
+				}
+			];
+
+			// Shared function to map data arrays onto your Tailwind grid cards
+			function renderRepoCards(reposArray) {
+				repoGrid.innerHTML = '';
+				reposArray.forEach(repo => {
+					const repoCardHTML = `
+						<a href="${repo.html_url}" target="_blank" class="bg-white p-5 rounded-xl border border-slate-200 hover:border-emerald-500 hover:shadow-md transition-all duration-300 flex flex-col justify-between group">
+							<div>
+								<div class="flex items-center justify-between mb-2">
+									<div class="text-xs font-bold text-slate-900 group-hover:text-emerald-600 transition truncate max-w-[80%]">
+										${repo.name}
+									</div>
+									<span class="text-[9px] bg-slate-100 text-slate-600 px-2 py-0.5 rounded-full font-medium shrink-0">Public</span>
+								</div>
+								<p class="text-xs text-slate-600 leading-relaxed mb-4 line-clamp-2">
+									${repo.description || 'No public repository layout documentation specified.'}
+								</p>
+							</div>
+							<div class="flex items-center gap-4 text-[10px] text-slate-500 border-t border-slate-100 pt-3">
+								<span class="font-medium text-slate-700 flex items-center gap-1.5">
+									<span class="w-2 h-2 rounded-full ${repo.language === 'Python' ? 'bg-blue-500' : 'bg-yellow-500'}"></span>
+									${repo.language || 'Data/Config'}
+								</span>
+								<span>⭐ ${repo.stargazers_count}</span>
+							</div>
+						</a>
+					`;
+					repoGrid.innerHTML += repoCardHTML;
+				});
+			}
+
+			hubBtn.addEventListener('click', async (e) => {
+				e.preventDefault();
+				
+				if (!portfolioContainer.classList.contains('hidden')) return;
+
+				portfolioContainer.classList.remove('hidden');
+				repoGrid.innerHTML = `
+					<div class="col-span-full py-6 text-center text-xs text-slate-400 animate-pulse">
+						Connecting to GitHub API channel, downloading repositories...
+					</div>
+				`;
+
+				try {
+					const response = await fetch(`https://github.com{GITHUB_USERNAME}/repos?sort=updated&per_page=4`);
+					
+					if (!response.ok) {
+						// API responded with an error (e.g. rate limit), switch to fallback
+						renderRepoCards(fallbackRepos);
+						return;
+					}
+					
+					const repos = await response.json();
+					renderRepoCards(repos);
+
+				} catch (error) {
+					// Catches local network blocks (Ad Blockers/CORS null blocks) and cleanly loads local cards instead
+					console.warn("Network request blocked by browser environment. Loading local portfolio fallback data smoothly.");
+					renderRepoCards(fallbackRepos);
+				}
+
+				// Smoothly drop down focus view over newly mapped cards
+				portfolioContainer.scrollIntoView({ behavior: 'smooth' });
+			});
+			
+			// 3. Interactive Web Application Sandbox Controller
+			const sandboxBtn = document.getElementById('toggle-sandbox-btn');
+			const sandboxFrame = document.getElementById('demo-sandbox');
+			const demoIframe = document.getElementById('demo-iframe');
+			
+			// Target the live GitHub Pages link created in Step 1
+			const APP_DEPLOYMENT_URL = "https://kapsab.github.io/zamcalc/";
+
+			sandboxBtn.addEventListener('click', (e) => {
+				e.preventDefault();
+				
+				if (sandboxFrame.classList.contains('hidden')) {
+					// Load app files into memory and smoothly expand view
+					demoIframe.src = APP_DEPLOYMENT_URL;
+					sandboxFrame.classList.remove('hidden');
+					sandboxBtn.innerHTML = "Close Demo Engine &times;";
+					
+					// Delayed scroll to allow expanding transition to settle cleanly
+					setTimeout(() => {
+						sandboxFrame.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+					}, 100);
+				} else {
+					// Collapse container and wipe source link to drop client resource usage
+					sandboxFrame.classList.add('hidden');
+					demoIframe.src = "";
+					sandboxBtn.innerHTML = "Interact with Demo &darr;";
+				}
+			});
+
+		</script>
+
+	</body>
+</html>

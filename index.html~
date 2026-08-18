@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>kapsa</title>
+		<style>
+			:root {
+				--bg-white: #fff;
+				--bg-head: #002366;
+			}
+			* {}
+			.navbar {}
+		</style>
+	</head>
+	<body>
+		<div class="navbar">
+			<label>STP Groundworks</label>
+			<div class="">
+				<ul>
+					<li>Home</li>
+					<li>Serives</li>
+					<li>Products</li>
+					<li>Blog</li>
+					<li>About</li>
+					<li>Get Quote</li>
+				</ul>
+			</div>
+		</div>
+		<div class="main">
+			<div class="hero">
+				<p>Innovate. Serve. Build</p>
+				<p>Professional surveying, GIS solutions, and modern geospatial technology services accross Zambia</p>
+				<div>
+					<button>Request quote</button>
+					<button>Our Services</button>
+			</div>
+			<div class=""></div>
+			<div class=""></div>
+			<div class=""></div>
+			<div class=""></div>
+			<div class="addressbar"></div>
+		</div>
+	</body>
+</html>
